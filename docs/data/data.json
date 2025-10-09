@@ -1,0 +1,608 @@
+{
+  "store": "Assign 1 Trendy Closet Online",
+  "hero": {
+    "title": "Fashion for Computer Scientists",
+    "text": "Discover our collection of comfortable, stylish clothes for every programming occasion."
+  },
+  "about": {
+    "homePage": {
+      "title": "Why Choose COMP 3612 for your fashion needs?",
+      "text": "We believe that programmers need more than black hoodies. You'll be a more confident, comfortable, and efficient developer wearing our clothes. Our carefully curated collection features premium fabrics, expert craftsmanship, and timeless designs. From scrum sessions to 4am debugging, we have the perfect clothes for every moment in your coding journey. Quality you can feel, style you can trust."
+    },
+    "aboutPage" : {
+      "story": "COMP3612 Assign 1 began with a simple belief: that every programmer deserves clothes that not only look exceptional but feel extraordinary. Founded in 2025 by Your Name, our company emerged from a shared frustration with the compromise between quality and affordability in the coding attire market, as well as a strong desire to get an A grade in COMP3612."
+    }
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Premium Cotton Crew Neck T-Shirt",
+      "category": "shirts",
+      "price": 24.99,
+      "brand": "EssentialWear",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["White", "Black", "Navy", "Gray", "Olive"],
+      "description": "This premium cotton t-shirt is crafted from 100% organic cotton for ultimate comfort and breathability. The relaxed fit design makes it perfect for everyday casual wear or as a versatile layering piece. Pre-shrunk fabric ensures consistent sizing wash after wash.",
+      "key_features": [
+        "100% organic cotton fabric",
+        "Pre-shrunk for consistent fit",
+        "Reinforced seams for durability",
+        "Tagless design for comfort",
+        "Machine washable"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Sarah M.",
+          "rating": 5,
+          "date": "2024-08-15",
+          "comment": "Absolutely love this t-shirt! The organic cotton is incredibly soft and it holds its shape perfectly after multiple washes. Worth every penny."
+        },
+        {
+          "reviewer": "Mike R.",
+          "rating": 4,
+          "date": "2024-08-10",
+          "comment": "Great quality shirt that fits true to size. The fabric feels premium and breathable. Only minor complaint is it could be a bit longer."
+        },
+        {
+          "reviewer": "Emma L.",
+          "rating": 5,
+          "date": "2024-07-28",
+          "comment": "Perfect everyday tee! I've ordered it in three colors now. The tagless design is a game-changer for sensitive skin."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Stretch Denim Skinny Jeans",
+      "category": "pants",
+      "price": 89.99,
+      "brand": "ModernFit",
+      "sizes": ["26", "28", "30", "32", "34", "36", "38"],
+      "colors": ["Dark Indigo", "Light Wash", "Black", "Gray"],
+      "description": "These contemporary skinny jeans feature a perfect blend of cotton and elastane for stretch comfort without compromising style. The high-quality denim construction ensures durability while maintaining a flattering silhouette. Five-pocket styling with subtle whiskering details adds authentic character.",
+      "key_features": [
+        "98% cotton, 2% elastane blend",
+        "High-rise waistline",
+        "Five-pocket classic styling",
+        "Stretch comfort technology",
+        "Fade-resistant denim"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Alex T.",
+          "rating": 4,
+          "date": "2024-09-01",
+          "comment": "Love the fit and stretch of these jeans! They're comfortable for all-day wear and the high-rise is very flattering."
+        },
+        {
+          "reviewer": "Jessica K.",
+          "rating": 5,
+          "date": "2024-08-22",
+          "comment": "Best jeans I've ever owned! The stretch is perfect - not too much, not too little. They maintain their shape beautifully."
+        },
+        {
+          "reviewer": "David P.",
+          "rating": 3,
+          "date": "2024-08-05",
+          "comment": "Good quality jeans but they run small. I had to size up. The fabric is nice though and they're getting more comfortable with wear."
+        },
+        {
+          "reviewer": "Lauren S.",
+          "rating": 4,
+          "date": "2024-07-30",
+          "comment": "Great jeans overall! The color is rich and the fit is flattering. Slightly tight in the thighs but that's expected with skinny jeans."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Merino Wool Cable Knit Sweater",
+      "category": "sweaters",
+      "price": 119.99,
+      "brand": "LuxeKnits",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Cream", "Charcoal", "Navy", "Burgundy"],
+      "description": "This luxurious cable knit sweater is made from 100% merino wool for exceptional warmth and softness. The classic cable pattern adds timeless texture and visual interest to this versatile piece. Natural temperature regulation properties make it perfect for transitional seasons.",
+      "key_features": [
+        "100% premium merino wool",
+        "Classic cable knit pattern",
+        "Ribbed cuffs and hem",
+        "Dry clean recommended"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Maria C.",
+          "rating": 5,
+          "date": "2024-08-18",
+          "comment": "Absolutely stunning sweater! The merino wool is incredibly soft and the cable knit detail is beautiful. Worth the investment."
+        },
+        {
+          "reviewer": "Robert H.",
+          "rating": 4,
+          "date": "2024-08-12",
+          "comment": "Bought this for our lead software engineer and she loves it. High quality construction and the wool feels luxurious. Fits true to size."
+        },
+        {
+          "reviewer": "Nina F.",
+          "rating": 4,
+          "date": "2024-07-25",
+          "comment": "Beautiful sweater but requires dry cleaning which is inconvenient. The quality is excellent though and it's very warm."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Performance Running Shoes",
+      "category": "shoes",
+      "price": 149.99,
+      "brand": "SpeedTech",
+      "sizes": ["6", "7", "8", "9", "10", "11", "12", "13"],
+      "colors": ["Black/White", "Navy/Orange", "Gray/Blue"],
+      "description": "These high-performance running shoes feature advanced cushioning technology and breathable mesh construction for optimal comfort during long runs. The lightweight design reduces fatigue while providing excellent support and stability. Engineered for both casual joggers and serious marathon runners.",
+      "key_features": [
+        "Advanced cushioning system",
+        "Breathable mesh upper",
+        "Lightweight construction",
+        "Non-slip rubber outsole",
+        "Reflective safety elements"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Tom W.",
+          "rating": 5,
+          "date": "2024-09-05",
+          "comment": "Exceptional running shoes! The cushioning is perfect for long distances and my feet don't hurt after 10+ mile runs. Highly recommend!"
+        },
+        {
+          "reviewer": "Kelly B.",
+          "rating": 4,
+          "date": "2024-08-28",
+          "comment": "Very comfortable shoes with great support. Perfect for both running and cross-training. The mesh keeps my feet cool."
+        },
+        {
+          "reviewer": "Chris D.",
+          "rating": 5,
+          "date": "2024-08-15",
+          "comment": "Best running shoes I've ever owned! The cushioning technology really works and they're incredibly lightweight."
+        },
+        {
+          "reviewer": "Amy J.",
+          "rating": 4,
+          "date": "2024-07-20",
+          "comment": "Great shoes but they run slightly narrow. Perfect for people with normal to narrow feet. Excellent for long runs."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Business Casual Button-Down Shirt",
+      "category": "shirts",
+      "price": 54.99,
+      "brand": "ProfessionalStyle",
+      "sizes": ["14.5", "15", "15.5", "16", "16.5", "17", "17.5"],
+      "colors": ["White", "Light Blue", "Pink", "Lavender", "Gray"],
+      "description": "This sophisticated button-down shirt combines classic styling with modern performance features for the contemporary professional. The wrinkle-resistant fabric maintains a crisp appearance throughout the day without ironing. Cut with a tailored fit that works equally well with suits or casual chinos.",
+      "key_features": [
+        "Wrinkle-resistant fabric",
+        "Moisture-wicking technology",
+        "Tailored professional fit",
+        "Mother-of-pearl buttons",
+        "French seams for durability"
+      ],
+      "reviews": [
+        {
+          "reviewer": "James L.",
+          "rating": 5,
+          "date": "2024-08-30",
+          "comment": "Perfect dress shirt for work! The wrinkle-resistant feature really works - I can wear it all day and it still looks crisp."
+        },
+        {
+          "reviewer": "Rachel M.",
+          "rating": 4,
+          "date": "2024-08-14",
+          "comment": "Great quality shirt with excellent tailoring. The moisture-wicking is a nice touch for busy days. Fits perfectly."
+        },
+        {
+          "reviewer": "Steven K.",
+          "rating": 4,
+          "date": "2024-07-18",
+          "comment": "Solid business shirt that looks professional. The fabric quality is excellent and the buttons feel premium."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tactical Cargo Shorts",
+      "category": "pants",
+      "price": 49.99,
+      "brand": "OutdoorPro",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Khaki", "Olive Drab", "Navy", "Black"],
+      "description": "Built for durability and functionality, these tactical cargo shorts feature ripstop fabric that resists tears and abrasions. Multiple strategically placed pockets provide ample storage for tools, phone, and everyday essentials. The relaxed fit allows for unrestricted movement during outdoor activities.",
+      "key_features": [
+        "Ripstop fabric construction",
+        "8 functional pockets",
+        "Reinforced stress points",
+        "Quick-dry technology",
+        "Belt loops and D-ring attachment"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Mark T.",
+          "rating": 4,
+          "date": "2024-09-02",
+          "comment": "Excellent shorts for outdoor work and hiking! The pockets are perfectly sized and the fabric is incredibly durable."
+        },
+        {
+          "reviewer": "Lisa R.",
+          "rating": 3,
+          "date": "2024-08-20",
+          "comment": "Good quality shorts but they're quite bulky for everyday casual wear. Perfect for outdoor activities though."
+        },
+        {
+          "reviewer": "Paul S.",
+          "rating": 5,
+          "date": "2024-08-08",
+          "comment": "Best work shorts I've owned! The ripstop fabric has saved me from several tears and the pockets hold everything I need."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cashmere Blend Wrap Scarf",
+      "category": "accessories",
+      "price": 89.99,
+      "brand": "LuxeAccessories",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Gray", "Camel", "Navy", "Burgundy"],
+      "description": "This elegant wrap scarf combines the luxurious softness of cashmere with the durability of fine wool for the perfect accessory. The oversized design allows for multiple styling options from classic draping to cozy wrapping. Subtle fringe details add sophisticated texture to any outfit.",
+      "key_features": [
+        "70% cashmere, 30% wool blend",
+        "Oversized 28\" x 80\" dimensions",
+        "Hand-finished fringe edges",
+        "Lightweight yet warm",
+        "Dry clean only"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Diana W.",
+          "rating": 5,
+          "date": "2024-08-25",
+          "comment": "Absolutely gorgeous scarf! The cashmere blend is incredibly soft and it's the perfect size for multiple styling options."
+        },
+        {
+          "reviewer": "Michael B.",
+          "rating": 4,
+          "date": "2024-08-12",
+          "comment": "Beautiful gift for my wife - she wears it constantly! The quality is excellent and the fringe detail is elegant."
+        },
+        {
+          "reviewer": "Catherine H.",
+          "rating": 5,
+          "date": "2024-07-28",
+          "comment": "Best scarf investment I've made! It elevates any outfit and is surprisingly warm for being so lightweight."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Chelsea Leather Boots",
+      "category": "shoes",
+      "price": 189.99,
+      "brand": "UrbanCraft",
+      "sizes": ["6", "7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown", "Tan"],
+      "description": "These classic Chelsea boots are handcrafted from premium full-grain leather with elastic side panels for easy slip-on convenience. The leather-lined interior and cushioned insole provide all-day comfort for both professional and casual settings. Goodyear welt construction ensures years of reliable wear.",
+      "key_features": [
+        "Premium full-grain leather",
+        "Goodyear welt construction",
+        "Elastic side panels",
+        "Leather-lined interior",
+        "Oil-resistant sole"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Sophie G.",
+          "rating": 5,
+          "date": "2024-09-03",
+          "comment": "Incredible boots! The leather quality is outstanding and they're so comfortable from day one. Worth every penny."
+        },
+        {
+          "reviewer": "Jake M.",
+          "rating": 4,
+          "date": "2024-08-19",
+          "comment": "Excellent craftsmanship and the slip-on design is so convenient. Took about a week to fully break in but now they're perfect."
+        },
+        {
+          "reviewer": "Emma T.",
+          "rating": 4,
+          "date": "2024-08-01",
+          "comment": "Beautiful boots that work with both jeans and dress pants. The leather is thick and durable."
+        },
+        {
+          "reviewer": "Ryan P.",
+          "rating": 3,
+          "date": "2024-07-22",
+          "comment": "High quality boots but they definitely run large. I should have sized down a half size. Otherwise excellent."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Lightweight Cardigan Sweater",
+      "category": "sweaters",
+      "price": 69.99,
+      "brand": "SeasonalKnits",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "colors": ["Cream", "Black", "Navy", "Rose", "Sage Green"],
+      "description": "This versatile lightweight cardigan is perfect for transitional weather and office air conditioning. The soft cotton-modal blend provides comfort without bulk while maintaining structure and shape. Classic button-front styling with functional pockets makes it a wardrobe essential.",
+      "key_features": [
+        "Cotton-modal blend fabric",
+        "Lightweight layering piece",
+        "Functional side pockets",
+        "Classic button closure",
+        "Machine washable"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Anna D.",
+          "rating": 5,
+          "date": "2024-08-28",
+          "comment": "Perfect cardigan for work! It's not too heavy but provides just enough warmth. The pockets are a great bonus."
+        },
+        {
+          "reviewer": "Brian K.",
+          "rating": 4,
+          "date": "2024-08-15",
+          "comment": "Bought this for my girlfriend and she loves it. Good quality knit that washes well and doesn't pill."
+        },
+        {
+          "reviewer": "Carol J.",
+          "rating": 4,
+          "date": "2024-07-30",
+          "comment": "Nice lightweight sweater that's perfect for summer evenings. The colors are beautiful and it fits true to size."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "High-Waisted Athletic Leggings",
+      "category": "pants",
+      "price": 39.99,
+      "brand": "ActiveFlex",
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Navy", "Charcoal", "Purple", "Teal"],
+      "description": "These high-performance leggings feature four-way stretch fabric and a supportive high-waisted design for ultimate comfort during workouts. The moisture-wicking technology keeps you dry during intense sessions while the squat-proof fabric provides confidence. Side pockets accommodate phone and essentials.",
+      "key_features": [
+        "Four-way stretch fabric",
+        "Moisture-wicking technology",
+        "Squat-proof construction",
+        "High-waisted support band",
+        "Side phone pockets"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Maya S.",
+          "rating": 5,
+          "date": "2024-09-01",
+          "comment": "Best leggings ever! They don't roll down during workouts and are completely squat-proof. The pockets are perfectly placed."
+        },
+        {
+          "reviewer": "Jennifer L.",
+          "rating": 4,
+          "date": "2024-08-18",
+          "comment": "Great quality leggings with excellent stretch. The high waist is very flattering and supportive during exercise."
+        },
+        {
+          "reviewer": "Ashley R.",
+          "rating": 5,
+          "date": "2024-08-05",
+          "comment": "These leggings stay put during my entire workout! The fabric is thick enough to be opaque but still breathable."
+        },
+        {
+          "reviewer": "Katie M.",
+          "rating": 4,
+          "date": "2024-07-25",
+          "comment": "Love these leggings but they run slightly small in the waist. The length is perfect and the pockets are so convenient."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Vintage Flannel Shirt",
+      "category": "shirts",
+      "price": 52.99,
+      "brand": "HeritageWear",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Red Plaid", "Blue Plaid", "Green Plaid", "Black Watch"],
+      "description": "This classic flannel shirt captures vintage Americana with authentic brushed cotton construction and traditional plaid patterns. The relaxed fit provides comfort for layering while maintaining a structured silhouette that works well worn alone. Pre-washed for softness and minimal shrinkage.",
+      "key_features": [
+        "100% brushed cotton flannel",
+        "Pre-washed for softness",
+        "Traditional plaid patterns",
+        "Button-down collar",
+        "Chest pocket with pen slot"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Tyler H.",
+          "rating": 4,
+          "date": "2024-08-22",
+          "comment": "Great flannel with authentic vintage feel. The brushed cotton is incredibly soft and the colors are rich and vibrant."
+        },
+        {
+          "reviewer": "Morgan F.",
+          "rating": 5,
+          "date": "2024-08-09",
+          "comment": "Perfect flannel shirt! Fits exactly as expected and the fabric quality is exceptional. Looks great with jeans or layered."
+        },
+        {
+          "reviewer": "Derek W.",
+          "rating": 4,
+          "date": "2024-07-28",
+          "comment": "Solid flannel that feels authentic. The plaid pattern is classic and it's held up well through multiple washes."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Classic Canvas Sneakers",
+      "category": "shoes",
+      "price": 64.99,
+      "brand": "RetroClassic",
+      "sizes": ["6", "7", "8", "9", "10", "11", "12"],
+      "colors": ["White", "Black", "Navy", "Burgundy"],
+      "description": "These timeless canvas sneakers combine retro styling with modern comfort features for everyday versatility. The durable canvas upper is both breathable and easy to clean while the cushioned insole provides support for all-day wear. Vulcanized rubber sole offers excellent grip and flexibility.",
+      "key_features": [
+        "Durable canvas construction",
+        "Cushioned comfort insole",
+        "Vulcanized rubber sole",
+        "Metal eyelets",
+        "Easy slip-on design"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoe B.",
+          "rating": 4,
+          "date": "2024-08-30",
+          "comment": "Love these classic sneakers! They go with everything and are surprisingly comfortable for canvas shoes."
+        },
+        {
+          "reviewer": "Jordan T.",
+          "rating": 3,
+          "date": "2024-08-16",
+          "comment": "Nice looking sneakers but they lack arch support. Fine for casual wear but not for long walks or standing."
+        },
+        {
+          "reviewer": "Megan K.",
+          "rating": 5,
+          "date": "2024-08-02",
+          "comment": "Perfect everyday sneakers! The canvas is high quality and they've maintained their shape after months of wear."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tailored Dress Trousers",
+      "category": "pants",
+      "price": 79.99,
+      "brand": "ExecutiveWear",
+      "sizes": ["28", "30", "32", "34", "36", "38", "40"],
+      "colors": ["Charcoal", "Navy", "Black", "Gray"],
+      "description": "These sophisticated dress trousers feature a contemporary slim fit with traditional tailoring details for the modern professional. The wrinkle-resistant wool blend fabric maintains a crisp appearance throughout long workdays. Flat-front design with side adjusters ensures a perfect fit without a belt.",
+      "key_features": [
+        "Wool blend fabric",
+        "Wrinkle-resistant finish",
+        "Flat-front styling",
+        "Side adjuster tabs",
+        "Unfinished hem for tailoring"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Andrew M.",
+          "rating": 5,
+          "date": "2024-08-26",
+          "comment": "Excellent dress pants for the office! The fit is perfect and the fabric quality is outstanding. Professional look all day."
+        },
+        {
+          "reviewer": "Patricia L.",
+          "rating": 4,
+          "date": "2024-08-11",
+          "comment": "High quality trousers but they do need hemming. The side adjusters are a nice touch for the perfect waist fit."
+        },
+        {
+          "reviewer": "Kevin S.",
+          "rating": 4,
+          "date": "2024-07-29",
+          "comment": "Great dress pants that hold their shape well. The wrinkle resistance really works - they look pressed all day."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "French Terry Hoodie",
+      "category": "sweaters",
+      "price": 54.99,
+      "brand": "ComfortZone",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "colors": ["Heather Gray", "Navy", "Black", "Olive"],
+      "description": "This premium hoodie is crafted from soft French terry cotton for superior comfort and durability. The relaxed fit provides freedom of movement while the adjustable drawstring hood offers customizable coverage. Kangaroo pocket and ribbed cuffs complete this essential casual piece.",
+      "key_features": [
+        "French terry cotton blend",
+        "Adjustable drawstring hood",
+        "Kangaroo front pocket",
+        "Ribbed cuffs and hem",
+        "Pre-shrunk fabric"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Logan R.",
+          "rating": 5,
+          "date": "2024-09-04",
+          "comment": "Amazing hoodie! The French terry fabric is so soft and comfortable. Perfect weight for year-round wear."
+        },
+        {
+          "reviewer": "Chloe W.",
+          "rating": 4,
+          "date": "2024-08-21",
+          "comment": "Love this hoodie! It's incredibly cozy and the fit is just right - not too baggy, not too fitted."
+        },
+        {
+          "reviewer": "Ethan J.",
+          "rating": 4,
+          "date": "2024-08-07",
+          "comment": "Great quality hoodie for the price. The fabric feels premium and it's held up well after many washes."
+        },
+        {
+          "reviewer": "Madison P.",
+          "rating": 5,
+          "date": "2024-07-26",
+          "comment": "This is my new favorite hoodie! The French terry is thick and warm but not heavy. Perfect for lounging or casual outings."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Classic Leather Loafers",
+      "category": "shoes",
+      "price": 129.99,
+      "brand": "TimelessStyle",
+      "sizes": ["7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "Brown", "Burgundy"],
+      "description": "These sophisticated penny loafers are handcrafted from premium leather with traditional stitching details and a classic silhouette. The leather-lined interior and cushioned footbed provide comfort for professional and casual settings alike. The flexible sole construction ensures easy walking from office to evening events.",
+      "key_features": [
+        "Premium leather construction",
+        "Hand-stitched details",
+        "Leather-lined interior",
+        "Cushioned footbed",
+        "Flexible rubber sole"
+      ],
+      "reviews": [
+        {
+          "reviewer": "William H.",
+          "rating": 5,
+          "date": "2024-08-28",
+          "comment": "Outstanding loafers! The leather quality is exceptional and they're comfortable right out of the box. Perfect for business casual."
+        },
+        {
+          "reviewer": "Charlotte D.",
+          "rating": 4,
+          "date": "2024-08-15",
+          "comment": "Beautiful shoes with classic styling. They needed a brief break-in period but now they're incredibly comfortable."
+        },
+        {
+          "reviewer": "Henry M.",
+          "rating": 4,
+          "date": "2024-08-01",
+          "comment": "High quality loafers that look great with dress pants or chinos. The leather is thick and well-finished."
+        },
+        {
+          "reviewer": "Lily S.",
+          "rating": 5,
+          "date": "2024-07-24",
+          "comment": "Love these loafers! They're versatile enough for work or weekend and the comfort level is excellent."
+        }
+      ]
+    }
+  ]
+}
