@@ -115,7 +115,7 @@ body {
 	
 	 .banner {
 		min-height: 240px; 
-		background-image: url(../data/images/closet.jpg); 
+		background-image: url(/data/images/closet.jpg); 
 		background-repeat: no-repeat; 
 		background-size: 100%; 
 		text-align: center
@@ -653,3 +653,4 @@ body {
 		line-height: 1.5em;
 	}
 }
+
