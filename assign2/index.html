@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Assignment 2</title>   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">      
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src ="assign2.js"></script>  
+</head>
+<body>
+    
+    <header>
+        <div data-id="home" id="logo">LOGO
+            <img src="https://placehold.co/300x80">
+        </div>
+    
+        <nav>
+            <a id="homeLink" data-id="home" class="headerLink" href="#">Home</a>
+            <a id="womenLink" data-id="women" class="headerLink" href="#">Women</a>
+            <a id="menLink" data-id="men" class="headerLink" href="#">Men</a>
+            <a id="browseLink" data-id="browse" class="headerLink" href="#">Browse</a>
+            <a id="aboutLink" class="headerLink" >About</a>
+        </nav>
+        
+        <div id="headerCart">
+            <span>Cart</span>
+            <div class="circleNumber">0</div>
+        </div>
+    
+    </header>
+ 
+    <main class="container">
+        <div id="toast" class="toast">Your message here</div>
+        <div id="about" class="hidden">
+
+                    <dialog>
+                        <div class="window">
+                            <div id="XButtonContainer">
+                                <button class="close Xbutton">X</button>
+                            </div>
+                            <h2>About Us</h2>
+                            <div class="textContainer">
+                                
+                                <section>
+                                    <h3>Project Purpose</h3>
+                                    <p>
+                                        This website was created to demonstrate basic front-end development focusing on layout, styling, and fucntionality. Some features include, javascript html generation, localStorage writing and reading, fetching and event handling. 
+                                    </p>
+                                </section>
+                                
+                                 <section>
+                                    <h3>Technologies Used</h3>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li><a href="https://picocss.com/">Pico CSS</a></li>
+                                        <li><a href="https://placehold.co/">Placehold</a></li>
+                                    </ul>
+                                </section>
+                                
+                                 <section>
+                                    <h3>Team Members</h3>
+                                    <ul>
+                                        <li>Ashton Voth</li>
+                                    </ul>
+                                </section>
+                                
+                                <section>
+                                    <h3>GitHub Repository</h3>
+                                    <p><a href="#">*put repo url here*</a></p>
+                                </section>
+                            </div>
+                            <div id="lowerCloseContainer">
+                                <hr>
+                                <button class="close">Close</button>
+                            </div>
+                        </div>
+                        
+                    </dialog>
+        
+        </div>
+    
+        <article id="home" class="page">
+            <div class="hero">
+                <h1 id="homeHeader">Le Epic Store</h1>
+                <h3 id="slogan">We sell stuff. Like shirts and... uh... pants.</h3>
+            </div>
+            
+            
+            <div id="featured">
+                <h2>Featured Items</h2>
+                <div id="featuredItems">
+
+                    
+                    
+                </div>
+            </div>
+        </article>
+        
+        <article id="men" class="page hidden">
+            
+            <div class="hero">
+                <h2 class="title">Mens</h2>
+            </div>
+            
+            <div class="grid categories" id="menCategories">
+            
+                <div class="category card men" id="tops">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Tops</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card men" id="bottoms">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Bottoms</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card men" id="sweaters">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Sweaters</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card men" id="outerwear">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Outerwear</h4>
+                        <button class="viewButton">View</button>
+                </div>
+            
+            </div>
+        </article>
+        
+        <article id="women" class="page hidden">
+            <div class="hero">
+                <h2 class="title">Womens</h2>
+            </div>
+            
+            <div class="grid categories" id="womenCategories">
+            
+                <div class="category card women" id="tops">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Tops</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card women" id="bottoms">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Bottoms</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card women" id="dresses">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Dresses</h4>
+                        <button class="viewButton">View</button>
+                </div>
+                <div class="category card women" id="outerwear">
+                        <img src="https://placehold.co/200x200/222222/aaaa88">
+                        <h4>Outerwear</h4>
+                        <button class="viewButton">View</button>
+                </div>
+            
+            </div>
+        </article>
+        
+        <article id="browse" class="page hidden">
+            <h3>Browse</h3>
+            <div id="browseContainer">
+                <form>
+                    <div id="filters">
+                        <h4>Departments</h4>
+                        <div id="genders" class="filter-group">
+                            <h5>Gender</h5>
+                            <label><input type="checkbox" name="category" value="female"> Female</label>
+                            <label><input type="checkbox" name="category" value="male"> Male</label>
+                        </div>
+                        <div id="categories" class="filter-group">
+                            <h5>Category</h5>
+
+                        </div>
+                        <div id="sizes" class="filter-group">
+                            <h5>Size</h5>
+                            <label><input type="checkbox" name="category" value="XS"> XSmall</label>
+                            <label><input type="checkbox" name="category" value="S"> Small</label>
+                            <label><input type="checkbox" name="category" value="M"> Medium</label>
+                             <label><input type="checkbox" name="category" value="L"> Large</label>
+                              <label><input type="checkbox" name="category" value="XL"> XLarge</label>
+                        </div>
+                        <div id="colours" class="filter-group">
+                            <h5>Colours</h5>
+                            <label><input type="checkbox" name="category" value="beige"> Beige <div class="swatch"></div></label>
+                            <label><input type="checkbox" name="category" value="black"> Black <div class="swatch"></div></label>
+                            <label><input type="checkbox" name="category" value="blue"> Blue <div class="swatch"></div></label>
+                        </div>
+                        
+                    </div>
+                </form>
+                
+                <div id="browseView">
+                    <div id="browseTools">
+                        <div id="sortContainer">
+                            <h5>Sort by: </h5>
+                            <form>
+                                <select id="sort">
+                                    <option value="name" selected>Product Name</option>
+                                    <option value="price">Price</option>
+                                    <option value="category">Category</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div id="filterResults">
+                            <h5>Results</h5>
+                            <p id="clearFilters">X Clear All</p>
+                            <div id="activeFilters" class="flex">
+                                
+                            </div>                        
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="productDisplay" class="grid">
+                        <!-- Product cards displayed via javascript -->
+                        <template id="browseProductCard">
+                            <div class="product card" id="">
+                                <img src="imgs/placeholder.png">
+                                <p id="productTitle">Title</p>
+                                <p id="productPrice">$price</p>
+                                <button data-id="none" class="addToCart">+</button>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        
+        </article>
+        
+        <article id="product" class="page hidden">
+            <nav id="breadcrumb">
+                <a href="#">Home</a>
+                >
+                <a id="genderBreadcrumb" href="#">genderPlaceholder</a>
+                >
+                <a id="categoryBreadcrumb" href="#">categoryPlaceholder</a>
+                > 
+                <span id="productBreadcrumb">namePlaceholder</span>
+            </nav>
+            <div id="productInfo">
+                <div id="productImages" class="grid">
+                    <img class="large">
+                    <img id="img1" class="small">
+                    <img id="img2" class="small">
+                    <img id="img3" class="small">
+                    <img id="img4" class="small">
+                
+                </div>
+                <section id="productDetails">
+                    <h2 class="title">Product Title</h2>
+                    <h4 class="price">$48.99</h4>
+                    <p class="description">This product features a velvety smooth hardened steel bulletproof coating and a stylish bow. </p>
+                    <span id="materialTitle">Material: </span>
+                    <span id="material"></span>
+                    <form>
+                        <label>Quantity <input id="quantity" type="number" name="quantity" value="1" min="1"></label>
+                        
+                        <div class="size-selector">
+
+                        </div>
+                        
+                        <div class="color-selector">
+
+                        </div>
+                        
+                        <button id="addProductToCart" data-id="">Add to Cart</button>
+                    </form>
+                    
+                </section>
+                
+                <section id="related">
+                    <h5>Related Products</h5>
+                    <div class="grid">
+                        
+                    </div>
+                
+                </section>
+                
+            
+            </div>
+        
+        </article>
+        
+        <article id="cart" class="page hidden">
+            <h2>Shopping Cart</h2>
+                <div id="cartItems" class="grid">
+                    <div id="tableHeader">
+                        <span></span>
+                        <span></span>
+                        <span id="items">Item</span>
+                        <span>Colour</span>
+                        <span>Size</span>
+                        <span>Price</span>
+                        <span>Quantity</span>
+                        <span>Subtotal</span>
+                    </div>
+                    <div id="itemTable">
+                        
+                    </div>
+                    <template>
+                        <div class="cartItem">
+                            <button id="remove">-</button>
+                            <img src="imgs/placeholder.png">
+                            <p id="title">Product Title</p>
+                            <div class="swatch itemColour"></div>
+                            <select class="itemSize">
+                            </select>
+                            <p class="price">$place</p>
+                            <input id="quantity" type="number" name="quantity" value="1" min="0">
+                            <p class="subtotal" data-id="0">$86.90</p>
+                        </div>
+                    </template>
+                    
+                </div>
+                
+                <div id="checkoutInfo">
+                    <section id="shipping">
+                        <h5>Shipping</h5>
+                        <div id="shippingOptions">
+                            <select id="shippingType">
+                                <option value="standard">Standard</option>
+                                <option value="express">Express</option>
+                                <option value="priority">Priority</option>
+                            </select>
+                            <select id="region">
+                                <option value="CA">Canada</option>
+                                <option value="USA">United States</option>
+                                <option value="INT">International</option>
+                            </select>
+                        </div>
+                    </section>
+                    
+                    <section id="summary">
+                        <h5>Summary</h5>
+                        <hr>
+                        <div id="summaryWindow">
+                            <div id="subtotalSummary">
+                                <span>Merchandise</span>
+                                <span class="price">$0.00</span>
+                            </div>
+                            <div id="shippingSummary">
+                                <span>Shipping</span>
+                                <span class="price">$0.00</span>
+                            </div>
+                            <div id="taxSummary">
+                                <span>Tax</span>
+                                <span class="price">$0.00</span>
+                            </div>
+                            <div id="totalSummary">
+                                <span>Total</span>
+                                <span class="price">$0.00</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <button id="checkout">Checkout</button>
+                    </section>
+                    
+                    
+                </div>
+                
+        
+        </article>
+       
+       
+                    <template id="browseProductCard">
+                            <div class="product card" id="">
+                                <img src="imgs/placeholder.png">
+                                <p id="productTitle">Title</p>
+                                <p id="productPrice">$price</p>
+                                <button class="addToCart">+</button>
+                            </div>
+                    </template>
+        
+        
+
+    </main>
+
+
+    <footer>
+        <ul>
+            <li>
+                <a id="githubLink" href="#">Github</a>
+            </li>
+            <li>
+                <a id="aboutLink">About Us</a>
+            </li>
+            <li>
+                <a id="facebookLink" href="#">Facebook</a>
+            </li>
+        </ul>
+
+        <ul id="customerServices">
+            <li>
+				<a href="#">Contact Us</a>
+            </li>
+			<li>
+				<a href="#">Size Guide</a>
+			</li>
+			<li>
+				<a href="#">Returns</a>
+			</li>
+			<li>
+				<a href="#">Shipping Info</a>
+			</li>        
+        </ul>
+    </footer>
+
+       
+</body>
+</html>
