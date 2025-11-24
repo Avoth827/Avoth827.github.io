@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
      */
     function getData() {
         let content = localStorage.getItem(dataKey);
-        if (content) {
+        if (content && JSON.parse(content).length > 0) {
+
             main(JSON.parse(content));
         }
         else {
